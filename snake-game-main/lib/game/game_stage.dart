@@ -21,7 +21,7 @@ class GameStage extends StatelessWidget {
             padding: const EdgeInsets.all(8.0),
             child: Column(
               children: [
-                _level(context, 1000, "Easy"),
+                _level(context, 300, "Easy"),
                 _level(context, 200, "Medium"),
                 _level(context, 100, "Hard"),
               ],
